@@ -32,7 +32,7 @@ class TestCase {
 
 		@Test
 		public void helloTest() {
-			System.out.println("Hello World!");
+			System.out.println("Hello World!Java OnlyIt");
 		}
 	
 
