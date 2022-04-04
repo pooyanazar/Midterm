@@ -32,7 +32,7 @@ class TestCase {
 
 		@Test
 		public void helloTest() {
-			System.out.println("Hello World!Java OnlyItFor040320222357");
+			System.out.println("Hello World!Java OnlyItFor040420220005");
 		}
 	
 
