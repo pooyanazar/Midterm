@@ -30,10 +30,19 @@ class TestCase {
 	}
 	
 
-		@Test
-		public void helloTest() {
+	@Test
+	public void helloTest() {
 			System.out.println("Hello World!Java OnlyItFor040420220005");
-		}
-	
+	}
 
-}
+        @Test
+	public void testClear() {
+		// Removes all of the mapping from this map
+		populateMapWithPut(12);
+		hashTable.clear();
+		
+	      // Validate with isEmpty
+	      assertTrue(hashTable.isEmpty());
+	}
+		
+		
